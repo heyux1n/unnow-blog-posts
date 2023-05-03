@@ -1,9 +1,8 @@
 ---
-title: linux下安装redis
+title: win11下通过wsl安装redis
 subtitle: 
 date: 2023-04-30T14:41:29+08:00
 tags:
-  - linux
   - redis
 categories:
   - redis
@@ -18,7 +17,7 @@ categories:
 
 <!--more-->
 
-[redis官网推荐方式]([Install Redis on Windows | Redis](https://redis.io/docs/getting-started/installation/install-redis-on-windows/))
+[redis官网推荐方式](https://redis.io/docs/getting-started/installation/install-redis-on-windows/)
 
 ## 1 安装redis
 
