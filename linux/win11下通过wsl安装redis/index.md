@@ -1,7 +1,7 @@
 ---
 title: win11下通过wsl安装redis
 subtitle: 
-date: 2023-04-30T14:41:29+08:00
+date: 2023-05-01T14:41:29+08:00
 tags:
   - redis
 categories:
@@ -9,7 +9,7 @@ categories:
 
 ---
 
-![inux install](assets/inux install.png)
+![linux-install](assets/linux-install.png)
 
 在windows下安装redis，官方推荐通过wsl的方式安装redis。所以需要在windows下配置好wsl。
 
