@@ -1,16 +1,14 @@
-
 ---
-title: Win11下安装docker
-subtitle: 异步方法串行执行方案
+title: js异步方法串行执行方案
+subtitle: 
 date: 2023年7月26日
 tags: 
-
   - js
+
 categories:
   - js
 
 ---
-
 
 ![img](assets/promises.png)
 
@@ -21,8 +19,6 @@ categories:
 ## 场景描述
 
 由于第三方接口调用频率要求，同一时刻只能有一个方法正在执行，不能有并发操作。在使用第三方接口时存在统一封装，封装后对外提供，会有多处功能使用。
-
-
 
 ## 方案
 
@@ -55,8 +51,6 @@ async function serialPack(task) {
 }
 ```
 
-
-
 ### 测试
 
 ```js
@@ -82,4 +76,3 @@ function asyncMethod(index, ms){
 执行 4
 */
 ```
-
