@@ -393,10 +393,7 @@ start、middle、end 或 inherit，允许决定从这一点开始的文本流的
 
 | 类别       | 容器元素、结构元素                                           |
 | :--------- | ------------------------------------------------------------ |
-| 允许的内容 | 任意数量、任意顺序的下列元素：动画元素、描述性元素、形状元素、结构化元素、渐变元素 |
-
-> <a>、<clipPath>、<cursor>、<filter>、<font>、<font-face>、<foreignObject>、<image>、<marker>、<mask>、<pattern>、<script>、<style>、<switch>、<text>、<view>
->
+| 允许的内容 | 任意数量、任意顺序的下列元素：动画元素、描述性元素、形状元素、结构化元素、渐变元素、a、clipPath、cursor、filter、font、font-face、foreignObject、image、marker、mask、pattern、script、style、switch、text、view |
 
 > 元素 g 没有`专有属性`，所以让子元素继承的都是`全局属性`。
 >
